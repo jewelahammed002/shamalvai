@@ -1,0 +1,126 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu ul li a {
+		font-size: 16px;
+		padding: 5px !important;
+		text-align: center;
+		transition: .5s;
+	}
+	.menu ul li a::after {
+    	content: none;
+	}
+	.menu ul li a:hover{
+		transform: scale(1.3, 1.3);
+		color: #7A7878 !important;
+	}
+	/*header end*/
+	/*banner start*/
+	.banner{
+		padding: 60px 0;
+	}
+	.b-content h1{
+		font-size: 28px;
+		line-height: 45px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.b-button{
+		text-align: center;
+	}
+	.custom-button{
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	/*banner end*/
+	/*features start*/
+	.features{
+		padding: 60px 0;
+	}
+	/*features end*/
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu ul li a {
+		font-size: 18px;
+		padding: 5px !important;
+		text-align: center;
+		transition: .5s;
+		}
+	.menu ul li a::after {
+    content: none;
+	}
+	.menu ul li a:hover{
+		transform: scale(1.3, 1.3);
+		color: #7A7878 !important;
+	}
+	/*header end*/
+	/*banner start*/
+	.banner{
+		padding: 80px;
+	}
+	.b-content h1{
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 10px;
+	}
+	.custom-button{
+		font-size: 16px;
+		padding: 10px 25px;
+	}
+	/*banner end*/
+	/*features start*/
+	.features{
+		padding: 50px 0;
+	}
+	/*features end*/
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a {
+		font-size: 18px;
+		padding: 5px !important;
+		text-align: center;
+		transition: .5s;
+	}
+	.menu ul li a::after {
+    	content: none;
+	}
+	.menu ul li a:hover{
+		transform: scale(1.3, 1.3);
+		color: #7A7878 !important;
+	}
+	/*header end*/
+	/*banner start*/
+	.b-content h1{
+		font-size: 40px;
+		line-height: 45px;
+		margin-bottom: 10px;
+	}
+	.custom-button{
+		font-size: 16px;
+		padding: 10px 25px;
+	}
+	/*banner end*/
+	/*features start*/
+	.features{
+		padding: 60px 0;
+	}
+	/*features end*/
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+
+}
+/*very extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1440px){
+
+}
